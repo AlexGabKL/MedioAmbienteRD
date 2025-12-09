@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acerca del Proyecto"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Foto Alex -->
+        <ImageView
+            android:id="@+id/imgAlex"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/alex"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image_mask"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Nombre Alex -->
+        <TextView
+            android:id="@+id/txtAlex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👤 Alex Gabriel Kroumov Krumova\nMatrícula: 2023-0192"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Foto Compañero -->
+        <ImageView
+            android:id="@+id/imgCompanero"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/companero"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image_mask"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Nombre Compañero -->
+        <TextView
+            android:id="@+id/txtCompanero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👤 Ángel Ramírez\nMatrícula: 2023-0291"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Este sistema fue desarrollado por dos estudiantes comprometidos con el cuidado del medio ambiente y la transformación digital del sector público.\n\nNuestro objetivo es ofrecer una aplicación sencilla, accesible y útil para que los ciudadanos puedan consultar información ambiental, reportar incidentes y participar en iniciativas del Ministerio de Medio Ambiente de la República Dominicana."
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

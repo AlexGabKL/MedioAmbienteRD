@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.ministerio.medioambiente.ui.inicio.InicioFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.ministerio.medioambiente.ui.sobre.SobreFragment"
+        android:label="Sobre Nosotros" />
+
+    <fragment
+        android:id="@+id/serviciosFragment"
+        android:name="com.ministerio.medioambiente.ui.servicios.ServiciosFragment"
+        android:label="Servicios" />
+
+    <!-- Noticias -->
+    <fragment
+        android:id="@+id/noticiasFragment"
+        android:name="com.ministerio.medioambiente.ui.noticias.NoticiasFragment"
+        android:label="Noticias" />
+
+    <!-- Videos Educativos -->
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.ministerio.medioambiente.ui.videos.VideosFragment"
+        android:label="Videos Educativos" />
+
+    <!-- Áreas Protegidas -->
+    <fragment
+        android:id="@+id/areasFragment"
+        android:name="com.ministerio.medioambiente.ui.areas.AreasFragment"
+        android:label="Áreas Protegidas" />
+
+    <!-- Medidas Ambientales -->
+    <fragment
+        android:id="@+id/medidasFragment"
+        android:name="com.ministerio.medioambiente.ui.medidas.MedidasFragment"
+        android:label="Medidas Ambientales" />
+
+    <!-- Equipo -->
+    <fragment
+        android:id="@+id/equipoFragment"
+        android:name="com.ministerio.medioambiente.ui.equipo.EquipoFragment"
+        android:label="Equipo" />
+
+    <!-- Voluntariado -->
+    <fragment
+        android:id="@+id/voluntariadoFragment"
+        android:name="com.ministerio.medioambiente.ui.voluntariado.VoluntariadoFragment"
+        android:label="Voluntariado" />
+
+    <!-- Login -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.ministerio.medioambiente.ui.login.LoginFragment"
+        android:label="Iniciar Sesión" />
+
+    <!-- Normativas -->
+    <fragment
+        android:id="@+id/normativasFragment"
+        android:name="com.ministerio.medioambiente.ui.normativas.NormativasFragment"
+        android:label="Normativas" />
+
+    <!-- Reportar Daño -->
+    <fragment
+        android:id="@+id/reportarFragment"
+        android:name="com.ministerio.medioambiente.ui.reportar.ReportarFragment"
+        android:label="Reportar Daño" />
+
+    <!-- Mis Reportes -->
+    <fragment
+        android:id="@+id/misReportesFragment"
+        android:name="com.ministerio.medioambiente.ui.misreportes.MisReportesFragment"
+        android:label="Mis Reportes" />
+
+    <!-- Acerca de -->
+    <fragment
+        android:id="@+id/acercaFragment"
+        android:name="com.ministerio.medioambiente.ui.acerca.AcercaFragment"
+        android:label="Acerca de" />
+
+</navigation>
